@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Book & To-Do List</title>
+  <link rel="stylesheet" href="./index.css">
+  <meta name="description" content="Manage your contacts and tasks with this simple Address Book and To-Do List web app.">
+</head>
+<body>
+
+  <header>
+    <h1>Address Book & To-Do List</h1>
+  </header>
+
+  <main class="container">
+
+    
+    <section class="card">
+      <h2>Address Book</h2>
+      <form id="contact-form">
+        <input type="text" id="first-name" placeholder="First Name" required>
+        <input type="text" id="last-name" placeholder="Last Name" required>
+        <input type="text" id="phone-number" placeholder="Phone Number" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <button type="submit">Add Contact</button>
+      </form>
+
+      <h3>Contacts Table:</h3>
+      <table id="contact-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+
+      <h3>Contacts List:</h3>
+      <ul id="contact-list"></ul>
+    </section>
+
+    
+    <section class="card">
+      <h2>To-Do List</h2>
+      <form id="todo-form">
+        <input type="text" id="task" placeholder="Write a task..." required>
+        <button type="submit">Add Task</button>
+      </form>
+
+      <h3>Tasks:</h3>
+      <ul id="task-list"></ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <h2>Built by Naomi</h2>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
