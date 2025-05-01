@@ -54,9 +54,7 @@ For inquiries, suggestions, or contributions, please reach out to: [your.email@e
 ## License
 This project is licensed under the MIT License.
 
----
 © 2025 Address and To-Do List by Naomi
-
----
+https://vercel.com/nyagetirias-projects/address-book-and-to-do-list
 
 Feel free to add or modify any section based on your app’s specific features or plans! Would you like to adjust anything here?
